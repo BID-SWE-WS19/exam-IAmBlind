@@ -24,9 +24,9 @@ public class Exercise5Impl implements Exercise5
             InputStreamReader inputReader = new InputStreamReader(socket.getInputStream());
             BufferedReader bufferedReader = new BufferedReader(inputReader);
 
-            String newline;
-            while((newline = bufferedReader.readLine()) != null) {
-                myList.add(newline);
+            String txt;
+            while((txt = bufferedReader.readLine()) != null) {
+                myList.add(txt);
             }
         } catch (IOException e) {
             e.printStackTrace();
