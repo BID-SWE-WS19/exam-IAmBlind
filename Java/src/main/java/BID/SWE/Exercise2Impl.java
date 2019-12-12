@@ -26,10 +26,10 @@ public class Exercise2Impl implements Exercise2
 
         // check if even or not
         if(Neighbours % 2 == 0){
-            return even && cellState.IsAlive();
+            return even;
             //return even;
         } else{
-            return odd && cellState.IsAlive();
+            return odd;
             //return odd;
         }
     }
