@@ -5,7 +5,7 @@ public class Exercise3Impl implements Exercise3
 
     @Override
     public Object Method1() {
-        return null;
+        return new MapImpl();
     }
 
     @Override
