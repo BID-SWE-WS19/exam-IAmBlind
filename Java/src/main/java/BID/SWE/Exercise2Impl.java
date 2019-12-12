@@ -6,13 +6,13 @@ public class Exercise2Impl implements Exercise2
 
     @Override
     public Object Method1() {
-        Cell cell = new Cell();
-        return cell;
+        //Cell cell = new Cell();
+        return new cell();
     }
 
     @Override
     public int Method2() {
-        Cell cellGrowth = new Cell();
+        cell cellGrowth = new cell();
         return cellGrowth.Grow();
     }
 
@@ -22,7 +22,9 @@ public class Exercise2Impl implements Exercise2
         boolean even = true;
         boolean odd = false;
 
-        Cell cellState = new Cell();
+        //Cell cellState = new Cell();
+        cell cellState = new cell();
+        //cellState.isAlive();
 
         // check if even or not
         if(Neighbours % 2 == 0){
